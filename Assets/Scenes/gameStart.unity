@@ -206,7 +206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 56409265}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 785610060}
+        m_TargetAssemblyTypeName: turtleScript, Assembly-CSharp
+        m_MethodName: grow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &56409265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -492,7 +504,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 163372151}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 785610060}
+        m_TargetAssemblyTypeName: turtleScript, Assembly-CSharp
+        m_MethodName: shrink
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &163372151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10973,7 +10997,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 785610060}
         m_TargetAssemblyTypeName: turtleScript, Assembly-CSharp
-        m_MethodName: moveRight
+        m_MethodName: rotateRight
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -30517,7 +30541,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Left
+  m_text: +
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -30787,7 +30811,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: right
+  m_text: '-'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -46326,7 +46350,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1147901410}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 785610060}
+        m_TargetAssemblyTypeName: turtleScript, Assembly-CSharp
+        m_MethodName: distroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1147901410
 MonoBehaviour:
   m_ObjectHideFlags: 0
